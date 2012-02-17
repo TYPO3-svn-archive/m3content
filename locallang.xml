@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for extension 'm3content'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="pi1_title">Meridian3 map for tt_content</label>
+			<label index="pi1_plus_wiz_description">Show tt_content records with geometries on a map.</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="pi1_title">Meridian3 Karte für tt_content</label>
+			<label index="pi1_plus_wiz_description">Zeigt Datensätze aus tt_content mit Geometriebezug in einer Karte an.</label>
+		</languageKey>
+	</data>
+</T3locallang>
