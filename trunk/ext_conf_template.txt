@@ -1,0 +1,17 @@
+# cat=basic; type=options[EPSG:4326,EPSG:900913]; label=Projection: Coordinate reference system for storing geometries
+projection = EPSG:4326
+
+# cat=basic; type=options[marker,geometry]; label=Markers or geometries: Place only point markers on the map or draw different geometries (types configured below).
+method = geometry
+
+# cat=basic; type=boolean; label=Multiple:Capability to enter more than one geometry or marker.
+multiple = 1
+
+# cat=basic; type=boolean; label=Point:Enable feature to draw point geometries.
+enablePoint = 1
+
+# cat=basic; type=boolean; label=Polyline:Enable feature to draw polyline geometries.
+enablePolyline = 1
+
+# cat=basic; type=boolean; label=Polygon:Enable feature to draw polygon geometries.
+enablePolygon = 1

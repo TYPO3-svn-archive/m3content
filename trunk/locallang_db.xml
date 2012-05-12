@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'm3content'</description>
+	</meta>
+	<data type="array">
+	
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">Meridian3 map for tt_content</label>
+			<label index="tt_content.tx_m3geom_div">Map</label>
+			<label index="tt_content.tx_m3geom">Geometry</label>
+		</languageKey>
+		
+		<languageKey index="de" type="array">
+			<label index="tt_content.list_type_pi1">Meridian3 Karte für tt_content</label>
+			<label index="tt_content.tx_m3geom_div">Karte</label>
+			<label index="tt_content.tx_m3geom">Geometrie</label>
+		</languageKey>
+		
+	</data>
+</T3locallang>
