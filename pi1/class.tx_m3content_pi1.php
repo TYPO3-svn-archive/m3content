@@ -76,12 +76,6 @@ class tx_m3content_pi1 extends tx_m3openlayers_pibase {
 			}
 			$record['linkToTop'] = 0;
 			$record['header_link'] = $record['pid'] . '#' . $record['uid'];
-			if (in_array($record['CType'], array('text', 'textpic', 'html'))) {
-				$record['bodytext'] = $this->cObj->cropHTML(
-						$this->cObj->cropHTML($record['bodytext'], '500| &nbsp;<i>[...]</i>'),
-						'1000|'
-					);
-			}
 			
 			$tmpConf = array(
 					"stdWrap." => array(
@@ -93,7 +87,8 @@ class tx_m3content_pi1 extends tx_m3openlayers_pibase {
 													)
 											)
 									)
-							)
+							),
+						"cropHTML" => '500|&nbsp;[...]|1'
 					)
 				);
 			
